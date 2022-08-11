@@ -1,6 +1,10 @@
 # postview-Enumeration-cheet-sheet
 Postview is a powershell tool which is used to run the powershell scripts, it is used to enumerate the domain in the network
 
+you can find more information in the below link 
+
+<<   https://www.aldeid.com/wiki/TryHackMe-Post-Exploitation-Basics  >>
+
 Bellow are the cheets can be used to enumerate the domain
 
 -------<<<  Misc Functions:-------<<<  
@@ -52,10 +56,9 @@ Get-DomainSID                   -   return the SID for the specified domain
 Invoke-ThreadedFunction         -   helper that wraps threaded invocation for other functions
 
 .
-
-
-
-
+.
+.
+.
 
 -------<<<  net * Functions  -------<<<  
 
@@ -113,13 +116,12 @@ Get-ADObject                    -   takes a domain SID and returns the user, gro
 Set-ADObject                    -   takes a SID, name, or SamAccountName to query for a specified
                                     domain object, and then sets a specified 'PropertyName' to a
                                     specified 'PropertyValue'
+.
+.
+.
+.
 
-
-
-
-
-
-
+.
 -------<<<  GPO functions  -------<<<  
 
 
@@ -139,11 +141,12 @@ Find-GPOComputerAdmin           -   takes a computer and determines who has admi
                                     
 Get-DomainPolicy                -   returns the default domain or DC policy
 
+.
+..
 
-
-
-
-
+.
+.
+.
 -------<<<  User-Hunting Functions  ------<<<  
 
 
@@ -156,9 +159,11 @@ Invoke-ProcessHunter            -   hunts for processes with a specific name or 
 
 Invoke-UserEventHunter          -   hunts for user logon events in domain controller event logs
 
-
-
-
+.
+.
+.
+.
+.
 
 -------<<<  Domain Trust Functions -------<<<  
 
@@ -174,9 +179,11 @@ Find-ForeignGroup               -   enumerates all the members of a domain's gro
 
 Invoke-MapDomainTrust           -   try to build a relational mapping of all domain trusts
 
-
-
-
+.
+.
+.
+.
+.
 
 -------<<<  MetaFunctions -------<<<  
 
