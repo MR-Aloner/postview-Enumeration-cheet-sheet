@@ -4,8 +4,7 @@ Postview is a powershell tool which is used to run the powershell scripts, it is
 Bellow are the cheets can be used to enumerate the domain
 
 -------<<<  
-Misc Functions:
--------<<<  
+Misc Functions:-------<<<  
 
 Export-PowerViewCSV             -   thread-safe CSV append
 Set-MacAttribute                -   Sets MAC attributes for a file based on another file or input (from Powersploit)
