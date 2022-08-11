@@ -51,8 +51,15 @@ Get-DomainSID                   -   return the SID for the specified domain
 
 Invoke-ThreadedFunction         -   helper that wraps threaded invocation for other functions
 
+.
+
+
+
+
 
 -------<<<  net * Functions  -------<<<  
+
+
 
 Get-NetDomain                   -   gets the name of the current user's domain
 
@@ -107,7 +114,16 @@ Set-ADObject                    -   takes a SID, name, or SamAccountName to quer
                                     domain object, and then sets a specified 'PropertyName' to a
                                     specified 'PropertyValue'
 
+
+
+
+
+
+
 -------<<<  GPO functions  -------<<<  
+
+
+
 Get-GptTmpl                     -   parses a GptTmpl.inf to a custom object
 
 Get-NetGPO                      -   gets all current GPOs for a given domain
@@ -123,7 +139,14 @@ Find-GPOComputerAdmin           -   takes a computer and determines who has admi
                                     
 Get-DomainPolicy                -   returns the default domain or DC policy
 
+
+
+
+
+
 -------<<<  User-Hunting Functions  ------<<<  
+
+
 
 Invoke-UserHunter               -   finds machines on the local domain where specified users are logged into, and can optionally check if the current user has local admin access to found machines
 
@@ -133,7 +156,13 @@ Invoke-ProcessHunter            -   hunts for processes with a specific name or 
 
 Invoke-UserEventHunter          -   hunts for user logon events in domain controller event logs
 
+
+
+
+
 -------<<<  Domain Trust Functions -------<<<  
+
+
 
 Get-NetDomainTrust              -   gets all trusts for the current user's domain
 
@@ -144,6 +173,10 @@ Find-ForeignUser                -   enumerates users who are in groups outside o
 Find-ForeignGroup               -   enumerates all the members of a domain's groups and finds users that are outside of the queried domain
 
 Invoke-MapDomainTrust           -   try to build a relational mapping of all domain trusts
+
+
+
+
 
 -------<<<  MetaFunctions -------<<<  
 
